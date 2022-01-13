@@ -19,7 +19,7 @@ New-Item -Path $drive -Name $appName  -ItemType Directory -ErrorAction SilentlyC
 $LocalPath = $drive + '\' + $appName 
 set-Location $LocalPath
 
-$APMPS1 = 'Aanpassengithub RAW locatie, autopilotmenu.ps1'
+$APMPS1 = 'https://raw.githubusercontent.com/dennisvhit/Microsoft365/main/Powershell/Autopilotmenu.ps1'
 $APMPS1DL = 'Upload_Device_Group_Tag.ps1'
 $ProgressPreference = 'SilentlyContinue'
 Invoke-WebRequest -Uri $APMPS1 -OutFile $APMPS1DL
