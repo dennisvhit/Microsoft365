@@ -1,10 +1,10 @@
-<#Author       : Dennis Westerman
-# Creation Date: 2021-08-07
+<#Author       : Dennis van Hamond
+# Creation Date: 2022-1-13
 # Usage        : AutoPilotMenu to add Grouptag to a AutoPilot Device
 #*********************************************************************************
 # Date                  Version     Changes
 #------------------------------------------------------------------------
-# 2021-08-07            1.0         Intial Version
+# 2022-1-13            1.0         Intial Version
 #
 #*********************************************************************************
 #
