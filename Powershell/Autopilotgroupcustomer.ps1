@@ -73,7 +73,7 @@ Connect-AzureAD
 $Domain = Get-AzureADDomain | where {($_.name -like '*.onmicrosoft.com')}
 $Onmicrosoft = $Domain.Name
 
-$Tenantname = "vitamnl.onmicrosoft.com"
+$Tenantname = "Onmicrosoftdomainname.com"
 $GroupTags = "Shared","Personal"
 
 Add-Type -AssemblyName System.Windows.Forms
